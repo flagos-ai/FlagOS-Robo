@@ -29,4 +29,23 @@ of intelligent agents.
 ## Quick Start🚀
 
 ### Installation
-Coming soon
+[Install](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#-setup) FlagScale.
+
+### Train
+[Train](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#train) models via FlagScale.
+
+### Serve
+[Serving](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#serve) models as a service via FlagScale.
+
+### Evaluation
+Evaluate(https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#evaluation) models via FlagScale and [FlagEval](https://flageval.baai.ac.cn/#/home).
+
+
+## Support Matrix
+| Models | Type | Checkpoint | Train | Inference | Serve | Evaluate |
+|--------------|--------|--------|--------|-------------------|----------------------|---------------------------|
+| PI0 | VLA | [Huggingface](https://huggingface.co/lerobot/pi0_base) | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0/README.md#training) | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0/README.md#inference) | ✅ [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0/README.md#service) | ❌ |
+| PI0.5 | VLA | [Huggingface]() | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0_5/README.md#training) | ✅ [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0_5/README.md#inference) | ✅   [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0_5/README.md#serving)|  ❌ |
+| RoboBrain-2.0 | VLM | [Huggingface]() | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/flagscale/models/megatron/qwen2_5_vl/QuickStart.md) | ✅ | ✅ | ✅   [Guide](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#evaluation) |
+| RoboBrain-X0 | VLA | [Huggingface]() | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0/README.md#training) | ❌ | ✅   [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0/README.md#serving)| ❌ |
+| RoboBrain-X0.5 | VLA | [Huggingface](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0_5/README.md#training) | ✅︎  [Guide]() | ❌ | ✅   [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0_5/README.md#serving)| ❌|
