@@ -1,27 +1,32 @@
 [中文](./README_cn.md)
 
-## Overview
+## FlagOS-Robo Overview
 
-FlagOS-Robo is built upon the open-source multi-chip AI software stack [FlagOS](https://flagos.io).
-It serves as an integrated training and inference framework for embodied intelligence.
-It can be deployed across diverse scenarios ranging from edge to clouds.
-Being portable across various chip models, it enables efficient collaborative training and inference
-between Vision Language Models (VLMs) and Vision Language Action (VLA) models.
-FlagOS-Robo helps piping data from the data collection end to real-machine and the FlagEval platform
-for testing and evaluation. It has been deeply integrated into BAAI’s embodied intelligence platform.
+🤖 FlagOS-Robo is built upon the unified and open-source AI system software stack, [FlagOS](https://flagos.io), which supports various AI chips.
+It serves as an integrated training and inference framework for AI models used in robots🤖 , so-called Embodied Intelligence.
+It can be deployed across diverse scenarios, ranging from edge to cloud.
+Being portable across various chip models, it enables efficient training, inference, and deployment
+for both Vision Language Models (VLMs) and Vision Language Action (VLA) models.
+Here, VLMs usually act as the brain🧠 for task planning, while VLA models act as the cerebellum to output actions for robot control🦾.
+
+FlagOS-Robo supports the full lifecycle of embodied intelligence models,
+including **data loading** from diverse formats (webdataset, Megatron-Energon and lerobot dataset), **supervised fine-tuning** (SFT),
+**inference deployment**, and integrated **testing and evaluation** via the [FlagEval-Robo](https://embodiedverse.flageval.net/home) platform. Users can easily reproduce the full end-to-end pipeline in their own environment by downloading and running the provided examples.
+
+FlagOS-Robo has been deeply integrated into **BAAI’s Embodied Intelligence platform** [RoboXStudio](https://ei2data.baai.ac.cn/home), which provides one-stop services including real-robot data collection, data annotation, supervised fine-tuning of VLA models, and evaluation. Users without a local setup can directly access RoboXStudio and run experiments without any installation.
+
 FlagOS-Robo provides a powerful computational foundation and systematic support for cutting-edge researches
 and industrial applications in embodied intelligence, accelerating innovations and real-world deployments
 of intelligent agents.
 
 ## Feature Highlights
 
-- FlagOS-Robo enables efficient cross-chip training and inference for both VLM and VLA models
-  through the FlagOS software stack, supporting diverse cloud server chips and edge devices.
-
-- It covers the full process of training and inference deployment for the RoboBrain (VLM) and
-  Robotics (VLA) models, offering a simple and user-friendly interface with adaptive optimization
-  and one-click deployment.
-
+- [FlagScale](https://github.com/flagos-ai/FlagScale/tree/main) as users' entrypoint supports robot related AI model training and inference, including Pi-0, RoboBrain2, and RoboBrainX0, etc.
 - FlagOS-Robo supports [RoboOS](https://github.com/FlagOpen/RoboOS)-based cross-embodiment collaboration,
   ensuring compatibility with different data formats, efficient edge-cloud coordination,
   and real-machine evaluation.
+
+## Quick Start🚀
+
+### Installation
+Coming soon
