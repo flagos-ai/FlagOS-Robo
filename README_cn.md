@@ -13,3 +13,31 @@ FlagOS-Robo 打通从数据采集到真机与评测平台（[FlagEval](https://g
 - 通过 FlagOS 软件栈实现具身智能大、小脑模型的跨芯片高效训练与推理，既支持不同云侧服务器芯片，又支持不同端侧模组。
 - 实现大脑模型（VLM）和小脑模型（VLA）从训练与推理部署全流程所需功能，并提供用户简单易用接口，可自适应调优和一键部署。
 - 支持 [RoboOS](https://github.com/FlagOpen/RoboOS) 跨本体协作，实现不同数据格式兼容、高效端云协同、真机评测等功能。
+
+
+## 快速上手🚀
+
+### 安装
+[安装](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#-setup) FlagScale.
+
+### 训练
+通过FlagScale做[训练](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#train)模型。
+
+### 离线推理
+通过FlagScale做模型[离线推理](https://github.com/flagos-ai/FlagScale/tree/main?tab=readme-ov-file#inference)。
+
+### 在线推理
+通过FlagScale做模型[在线推理](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#serve)。
+
+### 模型评估
+通过FlagScale和[FlagEval](https://flageval.baai.ac.cn/#/home)做模型[评估](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#evaluation)。
+
+
+## 支持矩阵
+| 模型 | 类型 | 模型权重 | 训练 | 离线推理 | 在线推理 | 评估 |
+|--------------|--------|--------|--------|-------------------|----------------------|---------------------------|
+| PI0 | VLA | [Huggingface](https://huggingface.co/lerobot/pi0_base) | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0/README.md#training) | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0/README.md#inference) | ✅ [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0/README.md#service) | ❌ |
+| PI0.5 | VLA | [Huggingface]() | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0_5/README.md#training) | ✅ [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0_5/README.md#inference) | ✅   [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/pi0_5/README.md#serving)|  ❌ |
+| RoboBrain-2.0 | VLM | [Huggingface]() | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/flagscale/models/megatron/qwen2_5_vl/QuickStart.md) | ✅ | ✅ | ✅   [Guide](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#evaluation) |
+| RoboBrain-X0 | VLA | [Huggingface]() | ✅︎  [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0/README.md#training) | ❌ | ✅   [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0/README.md#serving)| ❌ |
+| RoboBrain-X0.5 | VLA | [Huggingface](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0_5/README.md#training) | ✅︎  [Guide]() | ❌ | ✅   [Guide](https://github.com/flagos-ai/FlagScale/blob/main/examples/robobrain_x0_5/README.md#serving)| ❌|

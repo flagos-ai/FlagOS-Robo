@@ -34,6 +34,9 @@ of intelligent agents.
 ### Train
 [Train](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#train) models via FlagScale.
 
+### Inference
+Model [inference](https://github.com/flagos-ai/FlagScale/tree/main?tab=readme-ov-file#inference)  via FlagScale.
+
 ### Serve
 [Serving](https://github.com/flagos-ai/FlagScale?tab=readme-ov-file#serve) models as a service via FlagScale.
 
