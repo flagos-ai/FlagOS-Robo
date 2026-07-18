@@ -1,3 +1,19 @@
+<!--
+ Copyright 2026 FlagOS Contributors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+
 # 快速开始 
 未注册用户默认拥有查看平台的首页和用户手册的权限。若需使用评测功能，用户需完成注册登录平台，在评测管理部分申请报名评测并补充完整个人信息，请确保提交信息准确有效，提交信息后，管理员审核通过后即可使用平台进行评测。
 
@@ -56,7 +72,3 @@
 ![sign-9](images/sign-9.png)
 
 提交创建评测后，自动跳转到详情页面。若用户选择的【私有部署】，可以在详情页面点击查看【上传模型&代码】规范，利用flageval-serving工具上传模型与代码。上传完成后，点击【推理验证】快速验证推理评测代码是否可运行，通过验证后，点击【启动推理评测】进行正式推理评测过程，等待评测结束，即可查看评测结果。评测过程中如果遇到问题中断失败，可以通过日志查看错误信息。
-
-
-
-

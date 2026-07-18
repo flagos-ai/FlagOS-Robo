@@ -1,3 +1,19 @@
+<!--
+ Copyright 2026 FlagOS Contributors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+
 # 智源具身智能一站式平台（RoboXStudio）
 
 **智源具身智能一站式平台（RoboXStudio）** 是一款面向 **真机数据采集与管理** 的 SaaS 平台。  
@@ -15,8 +31,3 @@ RoboXStudio 的 **训练与推理模块** 基于开源开放的多芯片 AI 软�
 - **平台官网**：[https://ei2data.baai.ac.cn](https://ei2data.baai.ac.cn)  
 - **产品手册**：[https://jwolpxeehx.feishu.cn/wiki/GzbCwlYWwiqHvTk9b4icob3inug](https://jwolpxeehx.feishu.cn/wiki/GzbCwlYWwiqHvTk9b4icob3inug)
 - **新手入门指南**：[https://jwolpxeehx.feishu.cn/wiki/SbGzwjgakiQbHMkc0aecJbUunhg](https://jwolpxeehx.feishu.cn/wiki/SbGzwjgakiQbHMkc0aecJbUunhg)
-
-
-
-
-
